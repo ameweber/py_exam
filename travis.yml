@@ -6,6 +6,7 @@ python:
 install:
   - pip install 'django==1.11.8'
   - pip install pytest pytest-django pytest-cov
+  - pip install djangorestframework
 
 script:
   - pytest
